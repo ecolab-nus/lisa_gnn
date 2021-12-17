@@ -1,0 +1,11 @@
+const
+const
+const
+mul
+mul
+store
+mul
+add
+sub
+output
+output

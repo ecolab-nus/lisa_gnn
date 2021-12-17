@@ -1,0 +1,26 @@
+digraph G { 
+const0[opcode=const]; 
+const1[opcode=const]; 
+load2[opcode=load]; 
+sub3[opcode=sub]; 
+add4[opcode=add]; 
+add5[opcode=add]; 
+mul6[opcode=mul]; 
+output7[opcode=output]; 
+mul8[opcode=mul]; 
+store9[opcode=store]; 
+const1->load2[operand=0];
+const0->sub3[operand=0];
+load2->sub3[operand=1];
+load2->output7[operand=0];
+const0->add4[operand=0];
+sub3->add4[operand=1];
+const1->mul6[operand=0];
+sub3->mul6[operand=1];
+const0->add5[operand=0];
+add4->add5[operand=1];
+add5->mul8[operand=0];
+mul6->mul8[operand=1];
+mul8->store9[operand=0];
+const1->store9[operand=1];
+}

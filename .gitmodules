@@ -1,0 +1,6 @@
+[submodule "lisa_gnn_model"]
+	path = lisa_gnn_model
+	url = https://github.com/ecolab-nus/lisa_gnn_model.git
+[submodule "dfg_generator"]
+	path = dfg_generator
+	url = https://github.com/ecolab-nus/lisa_dfg_generator.git

@@ -1,0 +1,12 @@
+cgra_me_4_4 all label: 744 after filter:582
+cgra_me_4_4_1reg all label: 759 after filter:617
+cgra_me_4_4_leftmostmemory all label: 352 after filter:330
+cgra_me_5_5_systolic all label: 425 after filter:395
+cgra_me_3_3 all label: 804 after filter:569
+cgra_me_4_4 all label: 744 after filter:582
+labels/cgra_me_4_4 all label: 744 after filter:582
+labels/cgra_me_4_4 all label: 744 after filter:582
+labels/cgra_me_8_8 all label: 677 after filter:617
+labels/cgra_me_8_8 all label: 677 after filter:617
+labels/cgra_me_8_8 all label: 676 after filter:616
+labels/cgra_me_8_8 all label: 675 after filter:615
