@@ -4,6 +4,10 @@ import shutil
 from shutil import copyfile
 import argparse
 
+
+label_location  = "labels/"
+
+
 def evaluate_label(MII, II, number):
     if "systolic" in label_dir:
         if II == MII:
@@ -23,7 +27,7 @@ parser.add_argument("-l", "--label_dir", default="cgra_me_4_4",  help="the home 
 
 args = parser.parse_args()
 raw_graph_directory =   args.raw_graph_directory
-label_dir = "labels/" + args.label_dir
+label_dir = label_location + args.label_dir
 print("raw graph  directory:", args.raw_graph_directory)
 print("label directory:", args.label_dir)
 enable_filter = True
